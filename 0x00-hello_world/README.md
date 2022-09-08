@@ -2,3 +2,5 @@
 
 1-compiler a script that compiles a C file but does not link
 
+2-assembler a script that compiles a C file but does not link
+
