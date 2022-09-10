@@ -20,9 +20,11 @@ int main(void)
 		{
 			if (alpha < alpha1)
 			{
-				putchar((alpha % 100) + '0');
+				putchar((alpha / 10) + '0');
+				putchar((alpha % 10) + '0');
 				putchar(' ');
-				putchar((alpha1 % 100) + '0');
+				putchar((alpha1 / 10) + '0');
+				putchar((alpha1 % 10) + '0');
 				if (alpha != 98)
 				{
 					putchar(',');
