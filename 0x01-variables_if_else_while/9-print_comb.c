@@ -15,8 +15,11 @@ int main(void)
 	for (alpha = 0; alpha <= 9; alpha++)
 	{
 		putchar((alpha % 10) + '0');
-		putchar(',');
-		putchar(' ');
+		if (alpha != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
