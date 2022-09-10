@@ -14,7 +14,7 @@ int main(void)
 	alpha = 0;
 	for (alpha = 0; alpha <= 9; alpha++)
 	{
-		printf("%d", alpha)
+		printf("%d", alpha);
 	}
 	putchar('\n');
 	return (0);
