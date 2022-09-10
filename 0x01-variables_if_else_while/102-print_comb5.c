@@ -20,15 +20,7 @@ int main(void)
 		{
 			if (alpha < alpha1)
 			{
-				if (alpha <= 9)
-				{
-					putchar('0');
-				}
 				putchar((alpha % 100) + '0');
-				if (alpha1 <= 9)
-				{
-					putchar('0');
-				}
 				putchar(' ');
 				putchar((alpha1 % 100) + '0');
 				if (alpha != 98)
