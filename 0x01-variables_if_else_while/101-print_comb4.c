@@ -20,7 +20,7 @@ int main(void)
 	{
 		for (alpha1 = 0; alpha1 <= 9; alpha1++)
 		{
-			for (alpha2 = 0; alpha <= 9; alpha++)
+			for (alpha2 = 0; alpha2 <= 9; alpha2++)
 			{
 				if (alpha < alpha1 && alpha1 < alpha2)
 				{
