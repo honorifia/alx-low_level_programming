@@ -22,3 +22,5 @@
 
 5-print_numbers.c
 
+6-print_numberz.c
+
