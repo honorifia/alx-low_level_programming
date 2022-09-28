@@ -5,7 +5,7 @@ int check_palindrome(char *s, int len, int index);
 int is_palindrome(char *s);
 
 /**
- * find-strlen - Returns the length of string
+ * find_strlen - Returns the length of string
  * @s: The string to be measured
  *
  * Return: The length of the string
